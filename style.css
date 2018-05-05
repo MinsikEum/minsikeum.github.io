@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document*/
+
+body {
+  font-family: 'Pangolin', sans-serif;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#navl{
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background: #0a274c;
+
+}
+#navl h1{
+  float: left;
+  font-size: 2.5em;
+  margin-left: 15px;
+}
+#navl h1 a{
+  text-decoration: none;
+  color: white;
+
+}
+#navl ul{
+  float: right;
+  margin-right: 15px;
+}
+#navl ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+#navl ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+}
+#navl ul li:hover{
+  background: #22508a;
+  transition: all ease-in-out 0.3s
+}
+#active{
+  background: #22508a;
+}
+#main-content{
+  width: 100%;
+  height: 900px;
+  background: url(https://wallpapershome.com/images/wallpapers/moon-mow-2560x1440-4k-hd-moon-minimalism-iphone-wallpaper-astronaut-13442.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+}
+#service{
+    background: #0a274c;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+}
+#service:hover{
+    box-shadow: 5px 5px 0px 0px #000;
+    transition: all ease-in-out 0.3s;
+}
+#service a{
+  color: white;
+  text-decoration: none;
+}
+#third{
+  width: 100$;
+  height: 400px;
+  background: white;
+}
+#third1{
+  width: 350px;
+  height: 300px;
+  padding: 5px;
+  display: inline;
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+}
+#third1 img{
+  width: 320px;
+  height: 200px;
+  border-radius: 5px;
+}
+#footer{
+  width: 100%;
+  height: 150px;
+  background: black;
+  line-height: 150px;
+}
+#footer h2{
+  color: white;
+  float: right;
+  margin-right: 20px;
+  font-weight: 200;
+}
+#nav2 ul{
+  float: left;
+  margin-left: 20px;
+}
+#nav2 ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+#nav2 ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+#nave2 ul li:hover{
+  background: #999;
+}
+#icon{
+  font-size: 35px;
+}
+#icon2{
+  font-size: 35px;
+}#icon3{
+  font-size: 35px;
+}
+#icon:hover{
+  color: blue;
+  transition: all ease-in-out 0.3s;
+}
+#icon2:hover{
+  color: navy;
+  transition: all ease-in-out 0.3s;
+}
+#icon3:hover{
+  color: red;
+  transition: all ease-in-out 0.3s;
+}
