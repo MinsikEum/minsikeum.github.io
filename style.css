@@ -48,7 +48,7 @@ body {
 #main-content{
   width: 100%;
   height: 900px;
-  background: url("https://www.gstatic.com/images/icons/material/apps/fonts/1x/opengraph_color_1200dp.png") no-repeat;
+  background: url("images/mp.jpg") no-repeat;
   background-size: cover;
   text-align: center;
   color: white;
